@@ -12,6 +12,8 @@ gem 'thin'
 
 gem 'activesupport'
 gem 'activerecord'
+gem 'octokit'
+gem 'github_api'
 
 gem 'rake'
 

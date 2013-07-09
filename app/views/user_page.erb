@@ -1,0 +1,11 @@
+<h1><%=@user%> Repos</h1>
+
+<div>
+  <% @git.each do |git| %>
+    <p>
+      ssh_url: <%= git.ssh_url %> <br>
+      collaborators_url: <%= git.collaborators_url %> <br>
+      created_at: <%= git.created_at %>
+    </p>
+  <% end %>
+</div>
